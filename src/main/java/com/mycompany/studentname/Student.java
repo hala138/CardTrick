@@ -12,6 +12,7 @@ public class Student {
     private int sid;
     private String name;
     private int semester;
+    private String programe;
 
     /**
      * @return the sid
