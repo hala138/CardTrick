@@ -20,15 +20,15 @@ public class studentList {
         s2.setSid(12);
         s2.setName("Chun");
         
-        Student s3 = new Student();
-        s3.setSid(13);
-        s3.setName("Hala");
+       // Student s3 = new Student();
+        //s3.setSid(13);
+        //s3.setName("Hala");
         
         
-        Student[] list = new Student[3];
+        Student[] list = new Student[2];
         list[0]=s1;
         list[1]=s2;
-        list[2]=s3;
+        //list[2]=s3;
         for (Student list1 : list) {
             System.out.println(list1.getSid() + " " + list1.getName());
         }
