@@ -12,7 +12,7 @@ package card;
 
 
 import java.util.Random;
-import java.util.Scanner;
+
 
 public class CardTrick {
     private static final String[] SUITS = {"Clubs", "Diamonds", "Hearts", "Spades"};
