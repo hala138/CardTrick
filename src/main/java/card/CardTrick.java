@@ -55,5 +55,6 @@ if (found) {
 } else {
     System.out.println("Sorry, your lucky card is not in the magic hand.");
 }
-
+    }
+}
 
