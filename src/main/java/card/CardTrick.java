@@ -42,7 +42,7 @@ public class CardTrick {
         System.out.print("Enter a suit (0-3 where 0=Hearts, 1=Diamonds, 2=Clubs, 3=Spades): ");
         int suitIndex = sc.nextInt();
 
-        String[] Suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
+        String[] Suits = {"Hearts", "Diamonds", "Clubs", "Spades"};//change the name 
         Card userCard = new Card();
         userCard.setValue(val);
         userCard.setSuit(Suits[suitIndex]);
