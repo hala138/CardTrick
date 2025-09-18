@@ -46,7 +46,9 @@ public class CardTrick {
        if (c.equals(luckyCard)) { found = true; break; }
        }
 
-       System.out.println("\nLucky card: " + luckyCard.getSuit() + " " + luckyCard.getValue());
-        System.out.println(found
-              ? "Congrats, your lucky card is in the magic hand!"
-              : "Sorry, your lucky card is not in the magic hand.");
+       if (found) {
+        System.out.println("Congrats, your lucky card is in the magic hand!");
+        } else {
+        System.out.println("Sorry, your lucky card is not in the magic hand.");
+        }
+
