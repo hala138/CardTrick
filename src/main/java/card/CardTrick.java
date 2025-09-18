@@ -42,10 +42,10 @@ public class CardTrick {
         System.out.print("Enter a suit (0-3 where 0=Hearts, 1=Diamonds, 2=Clubs, 3=Spades): ");
         int suitIndex = sc.nextInt();
 
-        String[] promptSuits = {"Hearts", "Diamonds", "Clubs", "Spades"};
+        String[] Suits = {"Hearts", "Diamonds", "Clubs", "Spades"};
         Card userCard = new Card();
         userCard.setValue(val);
-        userCard.setSuit(promptSuits[suitIndex]);
+        userCard.setSuit(Suits[suitIndex]);
 
         boolean found = false;
         for (Card c : magicHand) {
