@@ -12,14 +12,24 @@ public class Card {
     private int value;
     private String suit;
 
-    public int getValue() { return value; }
-    public void setValue(int value) { this.value = value; }
+    public int getValue() {
+        return value;
+    }
+    public void setValue(int value) {
+        this.value = value; 
+    }
 
-    public String getSuit() { return suit; }
-    public void setSuit(String suit) { this.suit = suit; }
+    public String getSuit() {
+        return suit; 
+    }
+    public void setSuit(String suit) {
+        this.suit = suit; 
+    }
 
     @Override
-    public String toString() { return suit + " " + value; }
+    public String toString() {
+        return suit + " " + value;
+    }
 
     @Override
     public boolean equals(Object o) {
